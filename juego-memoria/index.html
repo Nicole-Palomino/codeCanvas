@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="futbol">
+    <main role="main" class="container-fluid" id="app">
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    <h1 class="text-center mt-3 title">JUEGO DE MEMORAMA</h1>
+                </p>
+                <p class="text-center" style="color: white;">
+                    <span class="h5">Intentos: </span>
+                    {{intentos}}/{{MAXIMOS_INTENTOS}}&nbsp;<span class="h5">Aciertos:
+                    </span> {{aciertos}}
+                    <!-- <br><a @click="mostrarCreditos" href="#">Acerca de</a> -->
+                </p>
+                <div class="mb-3 w-25 mx-auto">
+                    <select class="form-select" id="exampleSelect">
+                        <option selected>----- Elige una opción -----</option>
+                        <option value="mario">Mario Bros</option>
+                        <option value="futbol">Fútbol</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div v-for="(fila, indiceFila) in memorama" :key="indiceFila"
+            class="row d-flex justify-content-center">
+            <div :key="indiceFila+''+indiceImagen" class="col-xs-6 col-sm-6 col-md-6 col-lg-3 d-flex justify-content-center"
+                v-for="(imagen, indiceImagen) in fila">
+                <div class="mb-3 d-flex justify-content-center">
+                    <img @click="voltear(indiceFila, indiceImagen)"
+                        :class="{'girar': imagen.mostrar}"
+                        :src="(imagen.mostrar ? imagen.ruta :
+                        NOMBRE_IMAGEN_OCULTA)" class="card-img-top img-fluid
+                        img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/sweetalert2.all.min.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

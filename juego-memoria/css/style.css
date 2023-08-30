@@ -1,0 +1,41 @@
+img.card-img-top {
+  object-fit: cover;
+  cursor: pointer;
+  max-height: 150px !important;
+  max-width: 150px !important;
+  border-radius: 15px;
+}
+
+img.card-img-top.girar {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.futbol {
+  padding-bottom: 50px;
+  background-color: #ee5522;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23d23d09' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+}
+.mario {
+  background-color: #133ECC;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23133ECC' width='11' height='11'/%3E%3Crect fill='%230043d0' x='10' width='11' height='11'/%3E%3Crect fill='%230048d4' y='10' width='11' height='11'/%3E%3Crect fill='%23004cd8' x='20' width='11' height='11'/%3E%3Crect fill='%230051db' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%230055de' y='20' width='11' height='11'/%3E%3Crect fill='%230059e1' x='30' width='11' height='11'/%3E%3Crect fill='%23005de4' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%230061e7' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%230064e9' y='30' width='11' height='11'/%3E%3Crect fill='%230068ec' x='40' width='11' height='11'/%3E%3Crect fill='%23006cee' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23006ff0' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%230073f2' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%230076f3' y='40' width='11' height='11'/%3E%3Crect fill='%230079f5' x='50' width='11' height='11'/%3E%3Crect fill='%23007df6' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%230080f7' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%230083f8' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%230086f9' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%230089f9' y='50' width='11' height='11'/%3E%3Crect fill='%23008cfa' x='60' width='11' height='11'/%3E%3Crect fill='%23008ffa' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%230092fa' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%230095fa' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%230098fa' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23009bfa' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23009ef9' x='70' width='11' height='11'/%3E%3Crect fill='%2300a1f9' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%2300a4f8' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%2300a7f7' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%2300a9f6' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2300acf6' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2300aff5' x='80' width='11' height='11'/%3E%3Crect fill='%2300b1f3' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%2300b4f2' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%2300b7f1' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%2300b9f0' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%2300bcee' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%2300bfed' x='90' width='11' height='11'/%3E%3Crect fill='%2300c1ec' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%2300c4ea' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%2300c6e9' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%2300c9e7' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%2300cbe5' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%2300cee4' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%2300d0e2' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%2300d3e1' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%2300d5df' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%2300d7de' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%2300dadc' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%2300dcdb' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%2300ded9' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%2300e1d8' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2300e3d6' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2300e5d5' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2300e7d4' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%2300ead2' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%2300ecd1' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%2323EED0' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.title {
+  font-family: "Gluten", cursive;
+  font-size: 4rem;
+  color: white;
+}
+.smooth-scrolling {
+  transition: transform 1s ease-in-out;
+  transform: translateY(-100vh); /* Desplazar la página hacia arriba */
+}
