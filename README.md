@@ -5,3 +5,7 @@
 ### Ejercicios con html, css y javascript
 
 ## Card-hover-social
+## Juego-de-memoria
+## Switch-am-pm
+## Design-product-card
+## Calculadora-python
