@@ -9,3 +9,5 @@
 ## Switch-am-pm
 ## Design-product-card
 ## Calculadora-python
+## Descarga audio y video de YouTube
+## Generador de contraseñas
